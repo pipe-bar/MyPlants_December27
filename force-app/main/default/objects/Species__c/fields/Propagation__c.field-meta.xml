@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Propagation__c</fullName>
+    <externalId>false</externalId>
+    <label>Propagation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SEEDS</fullName>
+                <default>false</default>
+                <label>SEEDS</label>
+            </value>
+            <value>
+                <fullName>DIVISION</fullName>
+                <default>false</default>
+                <label>DIVISION</label>
+            </value>
+            <value>
+                <fullName>CUTTINGS</fullName>
+                <default>false</default>
+                <label>CUTTINGS</label>
+            </value>
+            <value>
+                <fullName>GRAFTING</fullName>
+                <default>false</default>
+                <label>GRAFTING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

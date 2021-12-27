@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Winter_Watering_Frequency__c</fullName>
+    <externalId>false</externalId>
+    <label>Winter Watering Frequency</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DAILY</fullName>
+                <default>false</default>
+                <label>DAILY</label>
+            </value>
+            <value>
+                <fullName>TWICE PER WEEK</fullName>
+                <default>false</default>
+                <label>TWICE PER WEEK</label>
+            </value>
+            <value>
+                <fullName>WEEKLY</fullName>
+                <default>false</default>
+                <label>WEEKLY</label>
+            </value>
+            <value>
+                <fullName>EVERY OTHER WEEK</fullName>
+                <default>false</default>
+                <label>EVERY OTHER WEEK</label>
+            </value>
+            <value>
+                <fullName>MONTHLY</fullName>
+                <default>false</default>
+                <label>MONTHLY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

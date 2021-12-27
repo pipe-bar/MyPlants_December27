@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <label>Region</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NORTH AMERICA</fullName>
+                <default>false</default>
+                <label>NORTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>CENTRAL AMERICA</fullName>
+                <default>false</default>
+                <label>CENTRAL AMERICA</label>
+            </value>
+            <value>
+                <fullName>SOUTH AMERICA</fullName>
+                <default>false</default>
+                <label>SOUTH AMERICA</label>
+            </value>
+            <value>
+                <fullName>EUROPE</fullName>
+                <default>false</default>
+                <label>EUROPE</label>
+            </value>
+            <value>
+                <fullName>ASIA</fullName>
+                <default>false</default>
+                <label>ASIA</label>
+            </value>
+            <value>
+                <fullName>AFRICA</fullName>
+                <default>false</default>
+                <label>AFRICA</label>
+            </value>
+            <value>
+                <fullName>OCEANIA</fullName>
+                <default>false</default>
+                <label>OCEANIA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
