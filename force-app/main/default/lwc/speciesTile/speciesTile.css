@@ -7,14 +7,15 @@ p.description {
 }
 img.specie {
     height: 200px;
-    max-width: 250px;
+    width: 250px;
     border-radius: 1.3rem;
-    border: 1px solid rgb(221, 219, 218);
+    border: 1px solid rgb(32, 29, 28);
 }
 img.specie:hover{
-    height: 200px;
-    max-width: 250px;
-    border-radius: 5.0rem;
-    border: 3px solid rgb(12, 7, 4);
+    height: 300px;
+    max-width: 350px;
+    border: 3px solid rgb(133, 143, 141);
     transition: 1.3s;
+    filter: saturate(180%);
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
