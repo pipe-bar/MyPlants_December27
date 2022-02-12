@@ -1,0 +1,20 @@
+:host{
+    max-width: 325px;
+    display: block;
+}
+p.description {
+    min-height: 60px;
+}
+img.specie {
+    height: 200px;
+    max-width: 250px;
+    border-radius: 1.3rem;
+    border: 1px solid rgb(221, 219, 218);
+}
+img.specie:hover{
+    height: 200px;
+    max-width: 250px;
+    border-radius: 5.0rem;
+    border: 3px solid rgb(12, 7, 4);
+    transition: 1.3s;
+}
