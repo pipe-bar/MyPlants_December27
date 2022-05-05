@@ -9,6 +9,7 @@ export default class SpeciesTile extends NavigationMixin(LightningElement) {
     //specie.Location = 'Outdoors'
     //specie.Location = igual a los dos
 
+    //PROPERTIES
     get isOutdoors() {
         return this.specie.Location__c.includes('OUTDOORS');
     }
@@ -17,7 +18,7 @@ export default class SpeciesTile extends NavigationMixin(LightningElement) {
     }
 
     //navegar a la pagina de detalles del objeto para
-
+    //METHODS
     navigateToRecordViewPage() {
         // View a custom object record.
         this[NavigationMixin.Navigate]({
